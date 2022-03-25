@@ -43,8 +43,8 @@ const MovieList = (props) => {
             <div className="text-center">
               { <div>
                 {" "}
-                Total viewed Results {array.length} Page Number{" "}
-                {props.pageNumber}
+                 Total displayed Results {array.length}  {"   "}<br/>  Total  Reults for {props.search} -{props.count}<br/>
+                Scroll down to get more results
               </div> }
             
 
