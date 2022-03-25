@@ -41,11 +41,11 @@ const MovieList = (props) => {
      
           {array && (
             <div className="text-center">
-              {/* <div>
+              { <div>
                 {" "}
                 Total viewed Results {array.length} Page Number{" "}
                 {props.pageNumber}
-              </div> */}
+              </div> }
             
 
               {array.map((movie, index) => (
